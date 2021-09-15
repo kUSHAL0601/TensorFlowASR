@@ -8,7 +8,7 @@ DEFAULT_YAML = os.path.join(os.path.abspath(os.path.dirname(__file__)), "config.
 
 parser = argparse.ArgumentParser(prog="Vocab Training with Subwords")
 
-parser.add_argument("corpus", nargs="*", type=str, default=[], help="Transcript files for generating subwords")
+parser.add_argument("--corpus", nargs="*", type=str, default=[], help="Transcript files for generating subwords")
 
 parser.add_argument("--config", type=str, default=DEFAULT_YAML, help="The file path of model configuration file")
 
