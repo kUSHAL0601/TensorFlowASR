@@ -32,7 +32,7 @@ parser.add_argument("--metadata", type=str, default=None, help="Path to file con
 
 parser.add_argument("--subwords", type=str, default=None, help="Path to file that stores generated subwords")
 
-parser.add_argument("transcripts", nargs="+", type=str, default=None, help="Paths to transcript files")
+parser.add_argument("--transcripts", nargs="+", type=str, default=None, help="Paths to transcript files")
 
 args = parser.parse_args()
 
