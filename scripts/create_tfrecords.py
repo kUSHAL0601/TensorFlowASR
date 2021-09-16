@@ -35,7 +35,7 @@ parser.add_argument("--sentence_piece", default=False, action="store_true", help
 
 parser.add_argument("--subwords", type=str, default=None, help="Path to file that stores generated subwords")
 
-parser.add_argument("transcripts", nargs="+", type=str, default=None, help="Paths to transcript files")
+parser.add_argument("--transcripts", nargs="+", type=str, default=None, help="Paths to transcript files")
 
 args = parser.parse_args()
 
